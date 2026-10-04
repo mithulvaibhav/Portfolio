@@ -63,7 +63,7 @@ table; justify-content: center; gap: 20px; }
 .skill-card 
 { background: #fff; padding: 20px 30px; box-shadow: 0 4px 6px #0001; border-left: 4px solid #0056b3; }
 .project-card 
-{ background: #f9f9f9; border: 1px solid #e0e0e0; padding: 30px; flex: 1 1 calc(50% - 30px); }
+{ background: #f9f9f9; border: 1px solid #e0e0e0; padding: 30px; display: grid; grid-template-columns: repeat(3,1fr);  align-items:center; justify-content: space-between;}
 .skill-card:hover, .project-card:hover 
 { transform: translateY(-5px); }
 .project-link.disabled 
